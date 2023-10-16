@@ -55,7 +55,7 @@ class _MapsScreenState extends State<MapsScreen> {
               )
             ),
             zoomOption: const ZoomOption(
-              initZoom: 8,
+              initZoom: 12,
               minZoomLevel: 3,
               maxZoomLevel: 19,
               stepZoom: 1.0,
