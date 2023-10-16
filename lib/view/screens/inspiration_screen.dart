@@ -29,6 +29,7 @@ class _InspirationScreenState extends State<InspirationScreen> {
                   offset: const Offset(0, 3), // changes position of shadow
                 ),],
                 borderRadius: BorderRadius.circular(20)
+                
               ),
               child: ClipRRect(
                 borderRadius: const BorderRadius.all(Radius.circular(20.0),),
