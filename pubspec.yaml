@@ -88,7 +88,26 @@ flutter:
     - assets/launcher_icons/icon_full.png
     - assets/launcher_icons/icon_fg.png
     - assets/launcher_icons/logo.png
-    - assets/brugge.webp
+    - assets/inspiration/frame_1.webp
+    - assets/inspiration/frame_2.webp
+    - assets/inspiration/frame_3.webp
+    - assets/inspiration/frame_4.webp
+    - assets/inspiration/frame_5.webp
+    - assets/inspiration/frame_6.webp
+    - assets/inspiration/frame_7.webp
+    - assets/inspiration/frame_8.webp
+    - assets/inspiration/frame_9.webp
+    - assets/inspiration/frame_10.webp
+    - assets/inspiration/frame_11.webp
+    - assets/inspiration/frame_12.webp
+    - assets/inspiration/frame_13.webp
+    - assets/inspiration/frame_14.webp
+    - assets/inspiration/frame_15.webp
+    - assets/inspiration/frame_16.webp
+    - assets/inspiration/frame_17.webp
+    - assets/inspiration/frame_18.webp
+    - assets/inspiration/frame_19.webp
+    - assets/inspiration/frame_20.webp
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -24,8 +24,8 @@ class _InspirationScreenState extends State<InspirationScreen> {
                 color: Colors.deepPurple[50],
                 boxShadow: [BoxShadow(
                   color: Colors.grey.withOpacity(0.5),
-                  spreadRadius: 5,
-                  blurRadius: 7,
+                  spreadRadius: 2,
+                  blurRadius: 5,
                   offset: const Offset(0, 3), // changes position of shadow
                 ),],
                 borderRadius: BorderRadius.circular(20)
@@ -35,9 +35,9 @@ class _InspirationScreenState extends State<InspirationScreen> {
                 child: Column(
                   children: [
                     Image.asset(images.inspirationImages[index], fit: BoxFit.cover,),
-                    const Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text('A nice image of Bruges!'),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text('Image #${index + 1}'),
                     )
                   ],
                 )
