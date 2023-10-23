@@ -202,7 +202,14 @@ class _EditViewState extends State<EditView> {
                   ),
                 ),
               ),
-              SizedBox(
+              
+            ],
+          ),
+        ),
+        Align(
+          alignment: Alignment.bottomCenter,
+          child: Container(
+            color: Colors.white,
                 height: 116,
                 child: Scrollbar(
                   controller: scrollController,
@@ -229,9 +236,7 @@ class _EditViewState extends State<EditView> {
                         );
                       }),
                 ),
-              )
-            ],
-          ),
+              ),
         ),
         Align(
           alignment: Alignment.bottomRight,

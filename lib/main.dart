@@ -13,8 +13,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   _cameras = await availableCameras();
   SystemChrome.setPreferredOrientations(
-      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
-  runApp(const MyApp());
+      [DeviceOrientation.portraitUp,]).then((_) => runApp(const MyApp()));
 }
 
 class MyApp extends StatelessWidget {

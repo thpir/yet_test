@@ -35,7 +35,9 @@ class _InspirationScreenState extends State<InspirationScreen> {
                 borderRadius: const BorderRadius.all(Radius.circular(20.0),),
                 child: Column(
                   children: [
-                    Image.asset(images.inspirationImages[index], fit: BoxFit.cover,),
+                    SizedBox(
+                      width: double.infinity,
+                      child: Image.asset(images.inspirationImages[index], fit: BoxFit.fitWidth,)),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text('Image #${index + 1}'),
